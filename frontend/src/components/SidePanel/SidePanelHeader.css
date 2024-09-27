@@ -1,0 +1,10 @@
+.side-panel-header {
+    background-color: #121720;
+    padding: 3px 10px;
+}
+
+.side-panel-header .side-panel-header__text {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f5f60;
+}

@@ -1,0 +1,6 @@
+.side-panel {
+    width: 300px;
+    height: calc(100vh - 60px);
+    background-color: #1A2130;
+    overflow-y: auto;
+}

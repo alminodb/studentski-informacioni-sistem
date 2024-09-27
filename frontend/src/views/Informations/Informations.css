@@ -1,0 +1,33 @@
+.information {
+    display: flex;
+    align-items: center;
+
+    padding: 15px 25px;
+
+    border-bottom: 1px solid gray;
+}
+
+.information__image {
+    margin-right: 15px;
+    max-width: 80px;
+    border-radius: 100%;
+}
+
+.information__text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.information__text-wrapper span {
+    font-weight: bold;
+}
+
+.information__title {
+    font-size: 18px;
+    color: black;
+}
+
+.information__author {
+    font-size: 14px;
+    color: gray;
+}

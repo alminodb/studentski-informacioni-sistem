@@ -1,0 +1,31 @@
+.side-panel-tab {
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+
+    border-left: 4px solid transparent;
+
+    transition: all .2s ease;
+}
+
+.side-panel-tab:hover {
+    background-color: #121720;
+    cursor: pointer;
+    border-left: 4px solid #5A72A0;
+}
+
+.side-panel-tab:hover .side-panel-tab__title, .side-panel-tab:hover .side-panel-tab__icon{
+    color: white;
+}
+
+.side-panel-tab__icon {
+    margin-right: 10px;
+}
+
+.side-panel-tab__title, .side-panel-tab__icon {
+    font-style: none;
+    color: gray;
+    text-decoration: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

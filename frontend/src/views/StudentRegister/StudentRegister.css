@@ -1,0 +1,15 @@
+.student-register__wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.student-register__name-lastname {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-register__name-lastname > input {
+    width: 47%;
+}

@@ -1,0 +1,24 @@
+.side-panel-profile {
+    background-color: #1A2130;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.side-panel-profile__image {
+    border-radius: 100%;
+    max-width: 70px;
+}
+
+.side-panel-profile__info {
+    margin-left: 15px;
+}
+
+.side-panel-profile__info-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    color: white;
+}
